@@ -29,7 +29,7 @@ const data = [stray];
 # Work experience:
 Nothing yet…
 # Education
-Udemy
+* [Udemy ](https://www.udemy.com)(WEB-разработчик)
 # Languages
 * English B1 (Intermediate)
 * Russian native speaker
