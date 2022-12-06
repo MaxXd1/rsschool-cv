@@ -9,9 +9,20 @@
 I am 19 years old , I am studying at the Homel State University of Francis Skarinin 3rd year.My goal is to gain knowledge in the field of front-end development.
 # Skills
 * HTML 
-* css
+* СSS
 # Code Example
 ```
+function stray(numbers) {
+  let strayChar = numbers[0];
+
+    if (strayChar !== numbers[1] && strayChar !== numbers[2]) return strayChar;
+
+    for(let i = 1; i < numbers.length; i++){
+      if(strayChar !== numbers[i])return numbers[i];
+    }
+}
+const data = [stray];
+ console.log(stray(data));
 
 ``` 
 # Work experience:
