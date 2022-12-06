@@ -1,6 +1,3 @@
----
-permalink: /cv.md 
----
 # Contact info
 ## Location: Gomel,Belarus
 ## Phone: +375(29)6260670
