@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Lato:wght@300;400;700;900&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <nav class="main_menu">
+                <div class="main_menu_logo">
+                    <a href="#profile"><h1>Maxim Malyoshin</h1> </a>
+                </div>
+                <ul class="main_menu_list">
+                    <li class="main_menu_item">
+                        <a href="#section_work">Work Experience</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_contacts">Contact</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_code">Code Example</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_about_me">About Me</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_skills">Skills</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_education">Education</a>
+                    </li>
+                    <li class="main_menu_item">
+                        <a href="#section_languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>
+       <section class="main_screen">
+            <div class="container">
+                <div class="wrap">
+                    <div class="main_screen_background">
+                        <img src="img/car.gif" alt=""> 
+                    </div>
+                    <div class="main_screen_welcome">   
+                        <h2>Hello,I'm an WEB developer based in Belarus!</h2>  
+                    </div>
+                </div> 
+            </div>  
+        </section> 
+        <section id="profile" class="profile">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="profile_text">
+                        <div class="profile_text_title"><h2>Maxim Malyoshin</h2></div>
+                        <div class="profile_text_decription">
+                            Front-end developer
+                        </div>
+                    </div>
+                    <div class="profile_avatar">
+                        <img id="section_work" src="img/Avatar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container">
+                <h2 class="section_title">Work</h2> 
+                <div class="section_description">
+                    Nothing yet…
+                </div>
+            </div>
+        </section>
+        <section class="bio">
+            <div class="container ">
+                <h2 class="section_title">Bio</h2> 
+                <div class="section_description">
+                    <span class="section_description_text">2003</span>
+                    Born in Gomel,Belarus.
+                </div>
+                <div class="section_description">
+                    <span class="section_description_text">2020</span>
+                    Graduated from the State Educational Institution "Secondary School No. 8 of Gomel"
+                </div>
+                <div class="section_description">
+                    <span class="section_description_text">2020</span>
+                    I entered the Francysk Skaryna Gomel State University and am studying to this day.
+                </div>
+            </div>
+        </section>
+        <section class="i_love">
+            <div class="container">
+                <h2 class="section_title">I ♥</h2> 
+                <div id="section_contacts" class="section_description">
+                    Gaming,Music,Arts,Animals
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h2 class="section_title">Contact</h2>
+                <div class="section_description">
+                    <ul class="section_description_menu">
+                        <li class="section_description_contact_menu_text">
+                            <span class="section_description_text">Phone:</span>
+                            +375(29)6260670
+                        </li>
+                        <li class="section_description_contact_menu_text">
+                                <span class="section_description_text">E-mail:</span>
+                                maleshinmaksim@gmail.com
+                        </li>
+                        <li class="section_description_contact_menu_text">
+                            <span class="section_description_text">GitHub:</span>
+                            <a href="https://github.com/MaxXd1">MaxXd1</a>
+                        </li>
+                        <li class="section_description_contact_menu_text">
+                            <span class="section_description_text">Discord:</span>
+                            Maximoff#4013
+                        </li>
+                    </ul>          
+                </div>
+            </div>    
+        </section>
+        <section class="code">
+            <div class="container">
+                <h2 id="section_code" class="section_title">Code Example</h2>
+                <div class="section_description">
+                    <pre>
+                        <code>
+function stray(numbers) {
+ let strayChar = numbers[0];                         
+  if (strayChar !== numbers[1] && strayChar !== numbers[2]) return strayChar;                     
+   for(let i = 1; i &lt; numbers.length; i++){
+    if(strayChar !== numbers[i])return numbers[i];
+        }
+    }
+const data = [stray];
+console.log(stray(data));  
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="about_me">
+            <div class="container">
+                <h2 id="section_about_me" class="section_title">About Me</h2>
+                <div class="section_description">
+                    I am 19 years old , 
+                    I am studying at the Homel State University of Francis Skarinin 3rd year.
+                    My goal is to gain knowledge in the field of front-end development.
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2 id="section_skills" class="section_title">Skills</h2>
+                <div class="section_description">
+                    <ul class="section_description_menu">
+                        <li class="section_description_skills_menu">
+                            <span class="section_description_text">HTML</span>
+                        </li>
+                        <li class="section_description_skills_menu_text">
+                            <span class="section_description_text">CSS</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="Education">
+            <div class="container">
+                <h2 id="section_education" class="section_title">Education</h2>
+                <div class="section_description">
+                    <a href="https://www.udemy.com">Udemy</a>
+                    (WEB-разработчик)
+                </div>
+            </div>
+        </section>
+        <section class="Languages">
+            <div id="section_languages" class="container">
+                <h2 class="section_title">Languages</h2>
+                <div class="section_description">
+                    English B1 (Intermediate)
+                </div>
+                <div class="section_description">
+                    Russian native speaker
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <ul class="footer_menu">
+                <li class="footer_menu_text"><a href="https://github.com/MaxXd1"><img src="img/GitHub_Logo.png" alt=""></a> </li>
+                <li class="footer_menu_text">2022</li>
+                <li class="footer_menu_text"> <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
